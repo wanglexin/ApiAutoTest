@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "",
+		"name": "按摩椅扫码",
+		"schema": ""
+	},
+	"item": [
+		{
+			"name": "01.获取授权链接",
+			"item": [
+				{
+					"name": "001_获取微信授权成功",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"tests[\"code\"] = jsonData.code ===0;",
+									"tests[\"msg\"] = jsonData.msg ===\"ok\";",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "terrace_type",
+								"value": "1"
+							}
+						],
+						"url": {
+							"raw": "http://www.baidu.com",
+							"protocol": "http",
+							"query": [
+								{
+									"key": "chair_id",
+									"value": "1234"
+								}
+							]
+						},
+						"description": "微信平台正常运行"
+					},
+					"response": []
+				},

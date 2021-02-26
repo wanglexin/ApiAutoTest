@@ -1,0 +1,5 @@
+2021-02-26 11:31:20,754 - D:\apiTest\testsuit\test_case.py[line:46] - INFO: 测试环境扫码接口执行成功
+2021-02-26 11:31:20,788 - D:\apiTest\testsuit\test_case.py[line:46] - INFO: 测试环境扫码接口执行成功
+2021-02-26 11:31:20,993 - D:\apiTest\testsuit\test_case.py[line:46] - INFO: 测试环境开放平台接口执行成功
+2021-02-26 11:31:21,059 - D:\apiTest\testsuit\test_case.py[line:46] - INFO: 测试环境扫码接口执行成功
+2021-02-26 11:31:24,564 - D:\apiTest\testsuit\test_case.py[line:44] - ERROR: 01.获取授权链接,001_获取微信授权成功接口执行失败
